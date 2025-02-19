@@ -98,7 +98,7 @@ $ openstack image create --public --disk-format qcow2 --file /home/ubuntu/devsta
           Please try again later. 
    Details: 'Port' object has no attribute 'security_groups'
 ```
-Indeed, the port attribute is named "security_group_ids". Reported in https://bugs.launchpad.net/horizon/+bug/2089557.
+Indeed, the correct name of this port attribute is `security_group_ids`. Reported in https://bugs.launchpad.net/horizon/+bug/2089557.
 
 To fix this, edit `/opt/stack/horizon/openstack_dashboard/api/neutron.py`. Change line 513 to 
 ```
