@@ -88,6 +88,8 @@ For some reason, stack.sh didn't download cirros at one point. If that happens, 
 $ wget --progress=dot:giga -c http://download.cirros-cloud.net/0.6.3/cirros-0.6.3-x86_64-disk.img -O /home/ubuntu/devstack/files/cirros-0.6.3-x86_64-disk.img
 $ openstack image create --public --disk-format qcow2 --file /home/ubuntu/devstack/files/cirros-0.6.3-x86_64-disk.img cirros-0.6.3-x86_64-disk
 ```
+### copy classfiles to ubuntu's $HOME
+
 ## Bugs
 
 ### Error in Horizon:
