@@ -5,7 +5,7 @@ cat <<EOF >adduser.yaml
 #cloud-config
 # Add groups cloud-users and fred to the instance
 # Group fred is required because user fred requires the existence of this group
-groups:	
+groups:
   - cloud-users
   - fred
 
