@@ -51,9 +51,6 @@ network:
         search: []
   version: 2
 ```
-### Copy the latest Fedora image
-From `https://download.fedoraproject.org/pub/fedora/linux/releases/41/Cloud/x86_64/images/Fedora-Cloud-Base-UEFI-UKI-41-1.4.x86_64.qcow2` to `c:\Classfiles\05-glance`
-
 ### Add the following to ubuntu's .profile
 ```
 # add /opt/stack/data/venv/bin to PATH
