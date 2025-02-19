@@ -1,0 +1,1 @@
+Ubuntu and Fedora images in "documents\training courses\ussuri".
